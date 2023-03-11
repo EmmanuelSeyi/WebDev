@@ -4,48 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+      rel="stylesheet"
+    />
     <title>Arinze Aleke</title>
     <link rel="icon" href="/Image/IMG-9638.JPG" />
-    <style>
-      img {
-        width: 200px;
-        height: 200px;
-        border-radius: 100px;
-        float: left;
-        margin-right: 10px;
-      }
-      .username {
-        font-weight: bold;
-      }
-      nav,
-      header,
-      h2 {
-        text-align: center;
-      }
-      footer {
-        text-align: right;
-      }
-      iframe {
-        margin-left: 400px;
-      }
-      body {
-        padding: 70px;
-      }
-
-      section {
-        margin-bottom: 70px;
-      }
-      a {
-        margin-right: 50px;
-      }
-    </style>
+    <link rel="stylesheet" href="/index.css" />
+   
   </head>
 
   <body>
     <header>
       <h1>My Portfolio</h1>
     </header>
-    <nav>
+    <hr />
+    <nav class="nav">
       <a href="/index.html">Home</a>
       <a href="#work">Work</a>
       <a href="#about">About</a>
@@ -55,7 +31,9 @@
     <hr />
     <section id="about">
       <h2>About</h2>
+
       <img src="image/IMG-9638.JPG" alt="Arinze" />
+
       <p>
         My name is Arinzechukwu Emmanuel Aleke. I graduated from the university
         with a degree in Information Technology. I am a driven service-focused
@@ -77,111 +55,126 @@
         >
       </p>
     </section>
-    <hr />
-    <section id="work">
-      <h2>Work</h2>
 
-      <iframe
-        width="500"
-        height="300"
-        src="https://www.youtube.com/embed/PLKCjFnrsD4?autoplay=1"
-      >
-      </iframe>
-      <p>
-        I’m currently working as a customer support specialist for a startup
-        company in the Marketing sector. I develop support documents to help
-        customers be self-sufficient while resolving customer queries. Not only
-        that, but I work with team members from across the globe to solve many
-        more technical issues like bugs that require the engineering team.
-        Coming from a technical background, I’ve developed analytical skills
-        that have helped me troubleshoot issues and resolve them swiftly. This
-        has also helped me to take initiative to provide very efficient
-        solutions to issues and also make suggestions to help customers function
-        better with their apps and software.
-      </p>
-    </section>
     <hr />
 
-    <section id="resume">
-      <h2>Reusme</h2>
-      <strong>WORK EXPERIENCE</strong><br />
-      <p>
-        <strong> Support Specialist, Gander - Shopify UGC App </strong>
-      </p>
+    <h2>Work</h2>
 
-      <ul>
-        <li>
-          Interacted with diverse customers constantly, listened to their
-          complaints, and delivered timely resolutions which promoted excellent
-          communication skills, quality customer service, and customer
-          retention.
-        </li>
-        <li>
-          Established, developed, and maintained positive business and customer
-          relationships.
-        </li>
-        <li>
-          Actively listen to customers' feedback and suggestions and its
-          implementation has improved customer satisfaction.
-        </li>
-        <li>
-          Developed and implemented customer service strategies that enhance
-          business growth and allowed for distinct opportunities.
-        </li>
-      </ul>
+    <div class="work">
+      <div>
+        <iframe
+          width="550"
+          height="200"
+          src="https://www.youtube.com/embed/PLKCjFnrsD4?autoplay=1"
+        >
+        </iframe>
+      </div>
 
-      <p>
-        <strong>
-          Customer Support Specialist, PageFly - Shopify Pagebuilder App
-        </strong>
-      </p>
+      <div>
+        <p>
+          I’m currently working as a customer support specialist for a startup
+          company in the Marketing sector. I develop support documents to help
+          customers be self-sufficient while resolving customer queries. Not
+          only that, but I work with team members from across the globe to solve
+          many more technical issues like bugs that require the engineering
+          team. Coming from a technical background, I’ve developed analytical
+          skills that have helped me troubleshoot issues and resolve them
+          swiftly. This has also helped me to take initiative to provide very
+          efficient solutions to issues and also make suggestions to help
+          customers function better with their apps and software.
+        </p>
+      </div>
+    </div>
+    <hr />
 
-      <ul>
-        <li>
-          Remotely developed the visual redesigns for client ecommerce pages,
-          boosting their user interfaces and end user appeal to boost
-          interaction and drive engagement.
-        </li>
-        <li>
-          Sustained a record of positive feedback in reviews from clients
-          regarding handling of E-commerce merchant needs using the PageFly
-          platform
-        </li>
-        <li>
-          De-escalated customer issues by providing quick and effective
-          solutions to pain points.
-        </li>
-      </ul>
+    <h2>Resume</h2>
+    <strong>WORK EXPERIENCE</strong><br />
 
-      <p>
-        <strong>
-          Microsoft 365 Technical Support Engineer, Tek Experts, Lagos, Nigeria
-        </strong>
-      </p>
+    <section class="resume">
+      <div>
+        <p>
+          <strong> Support Specialist, Gander - Shopify UGC App </strong>
+        </p>
 
-      <ul>
-        <li>
-          Overhauled the troubleshooting process for O365, Identity, exchange
-          online, OneDrive and SharePoint online related issue, resulting in a
-          reduced downtime, increased usability and customer satisfaction by
-          50%.
-        </li>
-        <li>
-          Maintained an average 3.9/4.0 KPI rating meeting projections and set
-          targets
-        </li>
-        <li>
-          Actively utilized SOPs and diagnostics to analyse large volumes of
-          data from customer’s complaints to influence a faster and more
-          effective resolution providing processes.
-        </li>
-        <li>
-          DGuided customers in onboarding their organizations to Office 365
-          services such as Azure, Exchange Online, SharePoint Online, SharePoint
-          Hybrid from 2010 to 2016, Lync Online, Office 2016, Office 365 ProPlus
-          and Yammer
-        </li>
-      </ul>
+        <ul>
+          <li>
+            Interacted with diverse customers constantly, listened to their
+            complaints, and delivered timely resolutions which promoted
+            excellent communication skills, quality customer service, and
+            customer retention.
+          </li>
+          <li>
+            Established, developed, and maintained positive business and
+            customer relationships.
+          </li>
+          <li>
+            Actively listen to customers' feedback and suggestions and its
+            implementation has improved customer satisfaction.
+          </li>
+          <li>
+            Developed and implemented customer service strategies that enhance
+            business growth and allowed for distinct opportunities.
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <p>
+          <strong>
+            Customer Support Specialist, PageFly - Shopify Pagebuilder App
+          </strong>
+        </p>
+
+        <ul>
+          <li>
+            Remotely developed the visual redesigns for client ecommerce pages,
+            boosting their user interfaces and end user appeal to boost
+            interaction and drive engagement.
+          </li>
+          <li>
+            Sustained a record of positive feedback in reviews from clients
+            regarding handling of E-commerce merchant needs using the PageFly
+            platform
+          </li>
+          <li>
+            De-escalated customer issues by providing quick and effective
+            solutions to pain points.
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <p>
+          <strong>
+            Microsoft 365 Technical Support Engineer, Tek Experts, Lagos,
+            Nigeria
+          </strong>
+        </p>
+
+        <ul>
+          <li>
+            Overhauled the troubleshooting process for O365, Identity, exchange
+            online, OneDrive and SharePoint online related issue, resulting in a
+            reduced downtime, increased usability and customer satisfaction by
+            50%.
+          </li>
+          <li>
+            Maintained an average 3.9/4.0 KPI rating meeting projections and set
+            targets
+          </li>
+          <li>
+            Actively utilized SOPs and diagnostics to analyse large volumes of
+            data from customer’s complaints to influence a faster and more
+            effective resolution providing processes.
+          </li>
+          <li>
+            DGuided customers in onboarding their organizations to Office 365
+            services such as Azure, Exchange Online, SharePoint Online,
+            SharePoint Hybrid from 2010 to 2016, Lync Online, Office 2016,
+            Office 365 ProPlus and Yammer
+          </li>
+        </ul>
+      </div>
     </section>
     <hr />
 
@@ -189,12 +182,13 @@
       <h2>Contact Me</h2>
       <form>
         <label>First name:</label><br />
-        <input type="text" value="John" /><br /><br />
+        <input class="input" type="text" /><br /><br />
         <label>Last name:</label><br />
-        <input type="text" value="Doe" /><br /><br />
+        <input class="input" type="text" /><br /><br />
         <label>Inquiry:</label><br />
-        <textarea type="text" rows="4" cols="50"> </textarea><br /><br />
-        <input type="submit" value="Submit" />
+        <textarea class="input" type="text" rows="15" cols="50"> </textarea
+        ><br /><br />
+        <input class="button" type="submit" value="Submit" />
       </form>
     </section>
     <hr />

@@ -1,0 +1,74 @@
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.work {
+  display: grid;
+
+  grid-template-columns: 50% 50%;
+}
+
+.resume {
+  display: grid;
+  
+  grid-template-columns: 50% 50%;
+}
+
+nav,
+header,
+h2 {
+  text-align: center;
+}
+footer {
+  text-align: right;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: left;
+}
+
+nav > a {
+  text-decoration: none;
+  color: black;
+  padding-left: 40px;
+}
+
+#contact {
+  text-align: center;
+}
+
+.input {
+  width: 250px;
+  border-radius: 150px;
+  height: 40px;
+}
+
+.button {
+  width: 150px;
+  border-radius: 100px;
+  height: 30px;
+  background-color: gray;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  background-color: grey;
+}
