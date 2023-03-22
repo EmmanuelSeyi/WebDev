@@ -6,20 +6,63 @@ img {
   margin-right: 30px;
 }
 
+iframe {
+  float: left;
+  margin-right: 30px;
+}
+
 .username {
   font-weight: bold;
 }
 
 .work {
   display: grid;
+  padding: 30px;
+  grid-template-columns: 0.5fr 1fr;
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-width: 1px;
+}
+.Mitem {
+  text-decoration: none;
+  color: black;
+}
 
-  grid-template-columns: 50% 50%;
+.nav1 {
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr);
+}
+.about {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 0.5fr 3fr;
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-width: 1px;
 }
 
 .resume {
   display: grid;
-  
-  grid-template-columns: 50% 50%;
+
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+  gap: 20px;
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-width: 1px;
+}
+
+.body {
+  display: grid;
+
+  grid-template-columns: 100%;
 }
 
 nav,
@@ -35,6 +78,14 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: rgb(241, 211, 211);
+  gap: 30px;
+  position: fixed;
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-width: 1px;
 }
 
 section {
@@ -44,10 +95,13 @@ section {
   text-align: left;
 }
 
-nav > a {
-  text-decoration: none;
-  color: black;
-  padding-left: 40px;
+.GridLay {
+  padding: 30px;
+  border-radius: 10%;
+  border-width: 10px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 10px;
 }
 
 #contact {
@@ -69,6 +123,10 @@ nav > a {
 
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0px;
+  background-color: rgb(241, 211, 211);
+}
 
-  background-color: grey;
+hr {
+  border-style: solid;
 }
